@@ -29,8 +29,8 @@ const Footer = () => {
             </h1>
           </div>
           <div className="text-center">
-            <p className="text-sm ">CSKH: 0983.985.989</p>
-            <p className="text-sm ">Mua hàng: 0983.985.989</p>
+            <p className="text-sm ">CSKH: 0357.804.535</p>
+            <p className="text-sm ">Mua hàng: 0357.804.535</p>
             <p className="text-sm  mb-4">Email: info.odinclub@gmail.com</p>
           </div>
           <div className="flex justify-center">
@@ -45,26 +45,18 @@ const Footer = () => {
         {/* footer 3 */}
         <div className="md:h-52 h-full  w-full md:w-1/3 mb-6 md:mb-0  flex flex-col ">
           <p className="text-center md:text-left text-3xl font-semibold italic mb-4">
-            𝓣𝓻𝓾̛𝓸̛𝓷𝓰 𝓝𝓱𝓪̣̂𝓽 𝓒𝓾̛𝓸̛̀𝓷𝓰 𝓢𝓱𝓸𝓹
+            𝓢𝓱𝓸𝓹
           </p>
-          <div className="flex justify-center md:justify-center">
-            <iframe
-              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftncuong2004%2F&tabs=timeline&width=340&height=271&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-              width={340}
-              height={200}
-              className="border-none overflow-hidden"
-              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            ></iframe>
-          </div>
+          
         </div>
       </div>
       <div className="border-t-2 border-black  dark:border-white p-3 h-12 cursor-pointer text-center">
         <Link
           className="text-center "
-          href={"https://www.facebook.com/tncuong2004/"}
+          href={""}
         >
           Thiết Kế WebSite Bởi{" "}
-          <span className="text-2xl mt-[1px]">©𝙏𝙧𝙪̛𝙤̛𝙣𝙜 𝙉𝙝𝙖̣̂𝙩 𝘾𝙪̛𝙤̛̀𝙣𝙜</span>
+          <span className="text-2xl mt-[1px]">©Hoàng Minh Tuấn</span>
         </Link>
       </div>
     </>

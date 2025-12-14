@@ -132,7 +132,7 @@ const ChatAlGemini = () => {
       {!isOpen && (
         <button
           onClick={() => setIsOpen(true)}
-          className="relative bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 hover:brightness-110 text-white rounded-full p-4 shadow-[0_15px_30px_rgba(79,70,229,0.45)] hover:shadow-[0_20px_35px_rgba(79,70,229,0.55)] transition-all duration-300 animate-bounce"
+          className="relative bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 hover:brightness-110 text-white rounded-full p-4 shadow-[0_15px_30px_rgba(79,70,229,0.45)] hover:shadow-[0_20px_35px_rgba(79,70,229,0.55)] "
           aria-label="Mở chatbot"
         >
           <BotMessageSquare className="w-6 h-6 md:w-8 md:h-8" />

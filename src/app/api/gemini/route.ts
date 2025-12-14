@@ -168,9 +168,9 @@ function calculateSize(height?: number, weight?: number): string[] {
     else recommendedSizes.push("L", "XL");
   } else if (height > 170 && height <= 180) {
     if (weight < 60) recommendedSizes.push("M", "L");
-    else if (weight <= 80) recommendedSizes.push("L", "XL");
-    else recommendedSizes.push("XL", "XXL");
-  } else if (height > 180) {
+      else if (weight <= 80) recommendedSizes.push("L", "XL");
+      else recommendedSizes.push("XL", "XXL");
+    } else if (height > 180) {
     if (weight < 70) recommendedSizes.push("L", "XL");
     else if (weight <= 90) recommendedSizes.push("XL", "XXL");
     else recommendedSizes.push("XXL", "XXXL");

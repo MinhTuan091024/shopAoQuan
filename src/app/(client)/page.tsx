@@ -28,8 +28,8 @@ const Page = () => {
       <Video />
       <DesignShopLapTop />
       {/* <CozeChat /> */}
-      <SocalMedia />
-      <ChatEmployee />
+      {/* <SocalMedia /> */}
+      {/* <ChatEmployee /> */}
       <ChatAlGemini />
     </>
   );
